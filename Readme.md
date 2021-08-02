@@ -2,8 +2,8 @@
 
 Youtube Downloader is a Python Web application built with Django.
 
-[![Heroku](https://heroku-badge.herokuapp.com/?app=heroku-badge)](https://ytdl.herokuapp.com/)
-[![Website Status](https://img.shields.io/website?url=https%3A%2F%2Fytdl.herokuapp.com)](https://ytdl.herokuapp.com/) 
+[![Heroku](https://heroku-badge.herokuapp.com/?app=heroku-badge)](https://ytdlnaz.herokuapp.com/)
+[![Website Status](https://img.shields.io/website?url=https%3A%2F%2Fytdlnaz.herokuapp.com)](https://ytdlnaz.herokuapp.com/) 
 ![Contributors](https://img.shields.io/github/contributors/nasbeer/YouTube-Downloader) 
 [![License](https://img.shields.io/github/license/nasbeer/YouTube-Downloader)](http://opensource.org/licenses/MIT)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/nasbeer/YouTube-Downloader/)
