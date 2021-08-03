@@ -21,15 +21,15 @@ def download_video(request):
             print('nhi hoa')
             return HttpResponse('Enter correct url.')
 
-        # if 'm.' in video_url:
-        #     video_url = video_url.replace(u'm.', u'')
+        if 'm.' in video_url:
+             video_url = video_url.replace(u'm.', u'')
 
-        # elif 'youtu.be' in video_url:
-        #     video_id = video_url.split('/')[-1]
-        #     video_url = 'https://www.youtube.com/watch?v=' + video_id
+        elif 'youtu.be' in video_url:
+             video_id = video_url.split('/')[-1]
+             video_url = 'https://www.youtube.com/watch?v=' + video_id
 
-        # if len(video_url.split("=")[-1]) < 11:
-        #     return HttpResponse('Enter correct url.')
+        if len(video_url.split("=")[-1]) < 11:
+             return HttpResponse('Enter correct url.')
 
         ydl_opts = {}
 

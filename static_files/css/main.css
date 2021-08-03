@@ -6,9 +6,15 @@ html, body {
 }
 
 .background {
-    background: url("https://wallpaperaccess.com/download/dark-landscape-143729");
+    background-image: url("https://wallpaperaccess.com/full/203519.jpg") !important;
     background-size: cover;
-    padding-bottom: 200px
+    /*padding-bottom: 200px;*/
+    padding-top:100px;
+    height:92vh;
+
+}
+.text-center{
+    text-align: center;
 }
 .btn:hover
 {
@@ -32,7 +38,18 @@ p {
     padding-top: 5%;
     font-family: 'CircularStd', sans-serif;
 }
-
+a{
+    font-family: 'CircularStd', sans-serif;
+}
+footer {
+    font-family: 'CircularStd', sans-serif;
+    font-size:18px;
+    text-align: center;
+    color:#000;
+    /*background-color: #ccc;*/
+    padding-bottom: 10px;
+    bottom:0px;
+}
 .content {
     text-align: center;
     padding-top: 3%;
@@ -42,8 +59,8 @@ p {
     padding: 15px;
     border-radius: 10px;
     width: 50%;
-    border: 2px solid #960FF2;
-    color: #960FF2;
+    border: 2px solid #037eff;
+    color: #037eff;
     font-weight: bold;
     font-size: 17px;
     text-align: center;
@@ -60,7 +77,7 @@ p {
 }
 
 a {
-    color: #960FF2;
+    color: #037eff;
 }
 
 .dbox {
@@ -71,7 +88,7 @@ a {
 }
 
 .v-title {
-    color: #960FF2;
+    color: #037eff;
     font-size: 30px;
     font-weight: bold;
     font-family: 'CircularStd', sans-serif;
